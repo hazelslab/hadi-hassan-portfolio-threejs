@@ -50,7 +50,7 @@ export default class Room {
 
             if (child.name === "Computer") {
                 child.children[1].material = new THREE.MeshBasicMaterial({
-                    map: this.resources.items.screen,
+                    //map: this.resources.items.screen,
                 });
             }
 
